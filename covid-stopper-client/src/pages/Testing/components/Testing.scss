@@ -1,0 +1,27 @@
+.ion-page {
+  background: #fff;
+}
+
+.testing {
+  &__toolbar {
+    display: flex;
+    margin-top: 0px;
+  }
+  &__user {
+    padding-top: 0;
+    padding-bottom: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    &-info {
+      text-align: center;
+      font-size: 16px;
+      &-name {
+        font-weight: 600;
+      }
+    }
+  }
+  &__button {
+    width: 100%;
+  }
+}

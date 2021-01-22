@@ -1,0 +1,18 @@
+.registration {
+    &__sumbit-container {
+        width: 100%;
+        bottom: 2rem;
+        display: flex;
+        &-col {
+            text-align: center;
+        }
+        &-button {
+            width: 6rem;
+        }
+    }
+
+    &__bluetooth-container {
+        display: flex;
+        justify-content: center;
+    }
+}

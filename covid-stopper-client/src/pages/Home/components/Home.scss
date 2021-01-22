@@ -1,0 +1,128 @@
+.ion-page {
+  background: #fff;
+}
+
+.dashboard {
+  &__toolbar {
+    display: flex;
+    margin-top: 10px;
+  }
+  &__user {
+    padding-top: 5%;
+    padding-bottom: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-info {
+      text-align: center;
+      font-size: 16px;
+      &-name {
+        font-weight: 600;
+      }
+    }
+
+    ion-item {
+      --background: #00000000;
+    }
+
+    &__connection {
+      &-status {
+        width: 30%;
+
+        &.done {
+          transition: all 2s ease;
+          transform: translateX(-75%);
+        }
+
+        &-text {
+          position: absolute;
+          right: 10%;
+          font-weight: 500;
+          transition: all 2s ease;
+          transform: scale(0);
+          color: transparent;
+
+          &.done,
+          &.fail {
+            transform: scale(1);
+          }
+
+          &.done {
+            color: #fff;
+          }
+
+          &.fail {
+            color: #eb445a;
+
+            &:active {
+              color: #eb445a;
+            }
+          }
+        }
+      }
+    }
+  }
+  &__grid {
+    height: 73%;
+    width: 90%;
+    position: absolute;
+    margin: 0 5%;
+    transform: translateY(35%);
+    z-index: 99;
+
+    &__row {
+      height: 33.3%;
+
+      &__col {
+        height: 100%;
+
+        .link-wrapper {
+          height: 100%;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          text-decoration: none;
+
+          .card {
+            height: 70%;
+            width: 80%;
+            padding: 10%;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            &-icon {
+              align-self: center;
+              height: 35%;
+              width: 100%;
+              &.map {
+                color: #6370ff;
+              }
+              &.flask {
+                color: #2dd36f;
+              }
+              &.info {
+                color: #ff9a00;
+              }
+              &.news {
+                color: #50c8ff;
+              }
+              &.check {
+                color: #42d77d;
+              }
+              &.qrcode,
+              &.scanner {
+                color: #434343;
+                height: 60%;
+              }
+            }
+          }
+          .label {
+            font-size: 16px;
+            color: #5e5d5d;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}

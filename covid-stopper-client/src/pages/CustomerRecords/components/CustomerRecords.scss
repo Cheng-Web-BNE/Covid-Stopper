@@ -1,0 +1,31 @@
+.customer-detail-modal {
+    --height: auto;
+    .modal-wrapper {
+        width: 90vw;
+        .ion-page {
+            position: relative;
+            contain: content;
+            max-height: 90vh;
+            ion-card {
+                margin: 0;
+                .customer-detail-modal__button-group {
+                    display: flex;
+                    justify-content: space-around;
+                    ion-button {
+                        margin: 0;
+                        width: 50%;
+                        --background: #fff;
+                        --color: #5e5d5d;
+                        --box-shadow: "none";
+                    }
+                    ion-button.remove {
+                        --color: #eb445a;
+                    }
+                }
+            }
+            .modal-content {
+                overflow: auto;
+            }
+        }
+    }
+}

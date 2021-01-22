@@ -1,0 +1,41 @@
+.instruction-slides {
+    height: 100%;
+    .swiper-slide {
+        display: block;
+        overflow: scroll;
+        h2 {
+            margin: 1rem;
+        }
+        img {
+            max-height: 50%;
+            max-width: 60%;
+            margin: 60px 0 40px;
+            pointer-events: none;
+        }
+        p {
+            padding: 0 40px;
+            font-size: 14px;
+            line-height: 1.5;
+            color: var(--ion-color-step-600, #60646b);
+            b {
+                font-weight: 500;
+            }
+        }
+        p:last-child {
+            margin-bottom: 2.5rem;
+        }
+        p b {
+            color: var(--ion-text-color, #000000);
+        }
+    }
+    &__consent-slide {
+        top: 10%;
+
+        p {
+            text-align: start;
+        }
+        h3 {
+            margin-top: 2em;
+        }
+    }
+}

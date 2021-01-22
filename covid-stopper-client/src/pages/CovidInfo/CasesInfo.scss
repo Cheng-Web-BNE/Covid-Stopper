@@ -1,0 +1,134 @@
+.covid19-info-section {
+  &-link {
+    color: #000;
+  }
+  &__segment-button {
+    width: 50%;
+  }
+
+  .MuiTableCell-root {
+    padding: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+  .covid19-info-main {
+    &__button-group {
+      ion-button {
+        margin-right: 10px;
+        height: 2rem;
+      }
+    }
+
+    &__sort {
+      margin-top: 10px;
+    }
+
+    &__stats {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+      background: #004da0;
+      color: #fff;
+      height: 4rem;
+      border-radius: 10px;
+      box-shadow: 2px 3px 3px 3px #ccc;
+
+      &__block {
+        height: 100%;
+        padding: 5px;
+        height: 100%;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &__title {
+          font-size: 15px;
+        }
+
+        &__number {
+          font-weight: 600;
+        }
+
+        p {
+          margin: 0;
+        }
+      }
+    }
+
+    &__table {
+      margin-top: 20px;
+      &-title {
+        font-size: 15px;
+        font-weight: 500;
+        margin: 0;
+      }
+    }
+
+    &__data {
+      border-radius: 10px;
+
+      &-section {
+        background: #f0f1f3;
+        display: flex;
+        padding: 0.5em;
+        margin-bottom: 10px;
+        height: 40px;
+
+        &-flag {
+          width: 30px;
+          height: 100%;
+          margin-right: 5px;
+        }
+
+        &-item {
+          color: #3d3d3d;
+          margin: 0;
+          align-self: center;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+
+  &__footer {
+    font-size: 13px;
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+.cases-table-wrapper {
+  max-height: 80%;
+  overflow-x: hidden;
+  .cases-table {
+    caption {
+      font-size: 13px;
+    }
+    &_row {
+      &-odd {
+        background: #cecdcd;
+      }
+    }
+    &_cell {
+      padding: 10px 5px;
+      font-size: 0.7rem;
+      &-active {
+        color: #ff0000;
+      }
+      &-confirmed {
+        color: #ff5e00;
+      }
+      &-deaths {
+        color: #808080;
+      }
+      &-recovered {
+        color: #2be52b;
+      }
+      &-state {
+        font-weight: 600;
+      }
+    }
+  }
+}

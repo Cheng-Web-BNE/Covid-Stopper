@@ -1,0 +1,7 @@
+{
+  "name": "Covid-Stopper-Client",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

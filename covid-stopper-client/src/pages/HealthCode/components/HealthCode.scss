@@ -1,0 +1,16 @@
+.health-code-model {
+    .modal-wrapper {
+        z-index: 20001;
+        width: 300px;
+        height: 300px;
+        margin: auto;
+    }
+    .ion-page {
+        .code-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+    }
+}

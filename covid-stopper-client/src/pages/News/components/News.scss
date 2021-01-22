@@ -1,0 +1,28 @@
+.news-section {
+    &__item {
+        .sc-ion-label-md-h {
+            white-space: inherit;
+        }
+
+        &-chip {
+            padding: 0 15px;
+            font-size: 12px;
+        }
+        .sc-ion-label-md-s h2 {
+            font-size: 18px;
+        }
+        &-timebox {
+            display: flex;
+            margin-top: 5px;
+            ion-icon {
+                align-self: center;
+                color: #eb445a;
+            }
+            p {
+                margin-left: 5px;
+                margin-bottom: 0;
+                color: #808080;
+            }
+        }
+    }
+}

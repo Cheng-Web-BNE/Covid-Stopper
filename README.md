@@ -63,7 +63,7 @@ Make sure you are already installed [Node.js](https://nodejs.org/en/), then inst
 $ npm install @ionic/cli
 ```
 ### Run the app
-Much of the ionic app can be built in the browser with ionic serve.
+Most of the ionic app can be built in the browser with ionic serve.
 ```sh
 $ ionic serve
 ```
